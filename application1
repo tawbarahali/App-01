@@ -1,0 +1,45 @@
+// # Exercice 1
+function newMax(a, b) {
+  if (a > b) {
+    return a;
+  } else {
+    return b;
+  }
+}
+console.log(newMax(n1, n2));
+
+// # Exercice 2
+function newLog() {
+  console.log("Bonjour");
+}
+newLog();
+
+// # Exercice 3
+var n1 = prompt("Saisiez un entier : ");
+var n2 = prompt("Saisiez un autre entier :");
+function newSomme(a, b) {
+  return Number(a) + Number(b);
+}
+console.log("Somme de " + n1 + "+" + n2 + " : " + newSomme(n1, n2));
+
+// # Exercice 4
+const mainDiv = document.querySelector(".main-div");
+function into() {
+  mainDiv.innerHTML = "INTO";
+}
+function out() {
+  mainDiv.innerHTML = "OUT";
+}
+function bgColor() {
+  mainDiv.style.background = "red";
+}
+//# Exercice 1
+function isString(data) {
+  return typeof data === "string";
+}
+
+console.log("Exercice 1 : ");
+console.log(isString("hello65656")); // true
+console.log(isString([1, 6, 9])); // false
+console.log(isString(5)); // false
+console.log(isString("Is54545et")); // true
